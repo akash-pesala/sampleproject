@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Demo {
 	public static void main(String arg[])
 	  {
-		  int x,y,a,b;
+		  int x,y,a,b,z;
 		  Scanner sc=new Scanner(System.in);
 		  System.out.println("enter the x:");
 		  x=sc.nextInt();
@@ -13,6 +13,7 @@ public class Demo {
 		  y=sc.nextInt();
 		  a=x+y;
 		  b=y-x;
+		  z=x-z;
 		  System.out.println("x="+x);
 		  System.out.println("y="+y);
 		  System.out.println("a="+a);
